@@ -27,6 +27,7 @@
           <element id="library" level="project" name="Gradle: org.hibernate:hibernate-entitymanager:5.2.9.Final" />
           <element id="library" level="project" name="Gradle: org.hibernate:hibernate-c3p0:5.2.9.Final" />
           <element id="library" level="project" name="Gradle: org.hibernate:hibernate-core:5.2.9.Final" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:6.0.6" />
           <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-jaxb:2.26-b03" />
           <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-common:2.26-b03" />
           <element id="library" level="project" name="Gradle: org.glassfish.jersey.ext:jersey-entity-filtering:2.26-b03" />
@@ -59,7 +60,6 @@
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.4" />
           <element id="library" level="project" name="Gradle: com.mchange:mchange-commons-java:0.2.11" />
           <element id="library" level="project" name="Gradle: javax.inject:javax.inject:1" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/6.0.6/1d19b184dbc596008cc71c83596f051c3ec4097f/mysql-connector-java-6.0.6.jar" />
         </element>
       </element>
     </root>
