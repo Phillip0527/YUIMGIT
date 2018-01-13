@@ -1,12 +1,13 @@
 package net.yuim.web.yutalker.push.service;
 
-import net.yuim.web.yutalker.push.bean.User;
+import net.yuim.web.yutalker.push.bean.db.User;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 /**
  * Created by Phillip on 2017/12/23.
+ *
  */
 // 127.0.0.1/api/account/...
 @Path("/account")
