@@ -1,12 +1,14 @@
 package net.yuim.web.yutalker.push.service;
 
 import com.google.common.base.Strings;
+import net.yuim.web.yutalker.push.bean.api.base.PushModel;
 import net.yuim.web.yutalker.push.bean.api.base.ResponseModel;
 import net.yuim.web.yutalker.push.bean.api.user.UpdateInfoModel;
 import net.yuim.web.yutalker.push.bean.card.UserCard;
 import net.yuim.web.yutalker.push.bean.db.User;
 import net.yuim.web.yutalker.push.bean.db.UserFollow;
 import net.yuim.web.yutalker.push.factory.UserFactory;
+import net.yuim.web.yutalker.push.utils.PushDispatcher;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -47,6 +49,7 @@ public class UserService extends BaseService {
     @Produces(MediaType.APPLICATION_JSON)
     public ResponseModel<List<UserCard>> contact() {
         User self = getSelf();
+
         // 拿到我的联系人
         List<User> users = UserFactory.contacts(self);
         // 转换为UserCard

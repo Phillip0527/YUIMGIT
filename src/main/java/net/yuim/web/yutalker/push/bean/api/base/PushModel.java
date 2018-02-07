@@ -35,6 +35,7 @@ public class PushModel {
         return add(new Entity(type, content));
     }
 
+    // 拿到推送的字符串
     public String getPushString() {
         if (entities.size() == 0)
             return null;

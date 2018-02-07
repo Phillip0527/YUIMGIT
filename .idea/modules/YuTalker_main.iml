@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="YuTalker:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="YuTalker" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="a457a64f-d916-43da-92ea-6bafc63bc3e0" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/../../src/main/resources/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
     <facet type="web" name="Web Gradle : YuTalker-1.0-SNAPSHOT.war">
       <configuration>
         <descriptors>
@@ -9,16 +18,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/../../src/main/webapp" relative="/" />
         </webroots>
-        <sourceRoots />
-      </configuration>
-    </facet>
-    <facet type="hibernate" name="Hibernate">
-      <configuration>
-        <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" value="a457a64f-d916-43da-92ea-6bafc63bc3e0" />
-        </datasource-map>
-        <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/../../src/main/resources/hibernate.cfg.xml" />
       </configuration>
     </facet>
   </component>
@@ -38,6 +37,7 @@
     <orderEntry type="library" name="Gradle: org.glassfish.jersey.core:jersey-server:2.26-b03" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.jersey.core:jersey-client:2.26-b03" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.jersey.media:jersey-media-json-jackson:2.26-b03" level="project" />
+    <orderEntry type="library" name="Gradle: com.gexin.platform:gexin-rp-sdk-http:4.0.1.9" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-entitymanager:5.2.9.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-c3p0:5.2.9.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-core:5.2.9.Final" level="project" />
@@ -56,6 +56,7 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.4" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.4" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.gexin.platform:gexin-rp-sdk-template:4.0.0.8" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
@@ -72,7 +73,10 @@
     <orderEntry type="library" name="Gradle: org.glassfish.hk2:hk2-utils:2.5.0-b36" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b36" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.gexin.platform:gexin-rp-sdk-base:4.0.0.14" level="project" />
     <orderEntry type="library" name="Gradle: com.mchange:mchange-commons-java:0.2.11" level="project" />
     <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:2.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.gexin.platform:gexin-rp-fastjson:1.0.0.0" level="project" />
   </component>
 </module>
