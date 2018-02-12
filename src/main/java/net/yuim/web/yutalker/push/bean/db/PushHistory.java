@@ -31,7 +31,7 @@ public class PushHistory {
 
     // 推送的实体类型
     @Column(nullable = false)
-    private String entityType;
+    private int entityType;
 
     // 接收者 不允许为空
     // 一个接收者可以接收很多推送消息
@@ -86,11 +86,11 @@ public class PushHistory {
         this.entity = entity;
     }
 
-    public String getEntityType() {
+    public int getEntityType() {
         return entityType;
     }
 
-    public void setEntityType(String entityType) {
+    public void setEntityType(int entityType) {
         this.entityType = entityType;
     }
 
