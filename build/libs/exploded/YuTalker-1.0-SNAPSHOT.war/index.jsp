@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>禹聊</title>
+    <title>李晓禹</title>
   </head>
   <body>
   Hello 禹聊！
